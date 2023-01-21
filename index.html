@@ -5,10 +5,96 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Stylesheet -->
     <link rel="stylesheet" href="./styles/style.css" />
+
     <title>Document</title>
   </head>
   <body>
-    <h1>Hello World</h1>
+    <!-- Header Section -->
+    <header class="mt-40">
+      <section class="container flex justify-between">
+        <div>
+          <h1 class="mb-[2.8rem]">
+            It's good <br />
+            tea time at The <br />
+            Tea House
+          </h1>
+          <p class="mb-[3.3rem] text-[2rem]">
+            Tea and Botanical Solutions Supplier Give Optimum <br />
+            Satisfaction To Your Taste Buds.
+          </p>
+          <button class="btn--primary">Explore More &#8599;</button>
+        </div>
+        <div>
+          <img src="./images/banner.png" alt="" />
+        </div>
+      </section>
+    </header>
+
+    <!-- Main -->
+    <main>
+      <!-- Featured Products Section -->
+      <section class="mt-[14rem]">
+        <div class="container">
+          <div class="max-w-[90rem] mx-auto text-center">
+            <h2 class="mb-[2rem]">Our Featured Products</h2>
+            <p class="mb-[5rem]">
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humour, or randomised words which don't look even
+              slightly believable.
+            </p>
+          </div>
+
+          <div class="grid gap-[2.4rem] grid-cols-4 text-center">
+            <div class="bg-grayColor py-[3rem] px-[6rem] rounded-[1rem]">
+              <img
+                class="max-w-[13.5rem] mx-auto"
+                src="./images/tea-1.png"
+                alt=""
+              />
+              <h3 class="mt-[3rem] mb-[1rem]">Milk Tea</h3>
+              <p>Creamer could be replaced by fresh milk</p>
+            </div>
+            <div class="bg-grayColor py-[3rem] px-[6rem] rounded-[1rem]">
+              <img
+                class="max-w-[13.5rem] mx-auto"
+                src="./images/tea-2.png"
+                alt=""
+              />
+              <h3 class="mt-[3rem] mb-[1rem]">Black Tea</h3>
+              <p>Creamer could be replaced by fresh milk</p>
+            </div>
+            <div class="bg-grayColor py-[3rem] px-[6rem] rounded-[1rem]">
+              <img
+                class="max-w-[13.5rem] mx-auto"
+                src="./images/tea-3.png"
+                alt=""
+              />
+              <h3 class="mt-[3rem] mb-[1rem]">Lemon Tea</h3>
+              <p>Creamer could be replaced by fresh milk</p>
+            </div>
+            <div class="bg-grayColor py-[3rem] px-[6rem] rounded-[1rem]">
+              <img
+                class="max-w-[13.5rem] mx-auto"
+                src="./images/tea-4.png"
+                alt=""
+              />
+              <h3 class="mt-[3rem] mb-[1rem]">Green Tea</h3>
+              <p>Creamer could be replaced by fresh milk</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
