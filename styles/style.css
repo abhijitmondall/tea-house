@@ -651,6 +651,14 @@ p {
   display: grid;
 }
 
+.w-full {
+  width: 100%;
+}
+
+.max-w-\[65\.5rem\] {
+  max-width: 65.5rem;
+}
+
 .max-w-\[90rem\] {
   max-width: 90rem;
 }
@@ -702,6 +710,14 @@ p {
   max-width: 130rem;
   padding: 0 3.2rem;
   margin: 0 auto;
+}
+
+.bg-gradient-4 {
+  background-image: linear-gradient(
+      180deg,
+      #f4f4f4 0%,
+      rgba(244, 244, 244, 0) 100%
+    );
 }
 
 /**********************/

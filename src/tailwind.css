@@ -75,6 +75,7 @@
     padding: 0 3.2rem;
     margin: 0 auto;
   }
+
   .bg-gradient-1 {
     background-image: linear-gradient(270deg, #ff0000 0%, #ff8938 100%);
   }
@@ -92,6 +93,14 @@
       90deg,
       #d9d9d9 0%,
       rgba(255, 255, 255, 0) 100%
+    );
+  }
+
+  .bg-gradient-4 {
+    background-image: linear-gradient(
+      180deg,
+      #f4f4f4 0%,
+      rgba(244, 244, 244, 0) 100%
     );
   }
 
