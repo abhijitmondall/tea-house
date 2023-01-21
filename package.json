@@ -1,0 +1,23 @@
+{
+  "name": "tea-house",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/tailwind.css -o ./styles/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhijitmondall/tea-house.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhijitmondall/tea-house/issues"
+  },
+  "homepage": "https://github.com/abhijitmondall/tea-house#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
