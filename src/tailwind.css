@@ -53,6 +53,30 @@
     line-height: 1.6;
     color: #777777;
   }
+
+  @media (max-width: 62em) {
+    html {
+      font-size: 50%;
+    }
+    h1 {
+      font-size: 6.2rem;
+      line-height: 1.1;
+      letter-spacing: -3px;
+    }
+
+    h2 {
+      font-size: 3.6rem;
+      line-height: 1.2;
+    }
+  }
+
+  @media (max-width: 36em) {
+    h1 {
+      font-size: 4.8rem;
+      line-height: 1.1;
+      letter-spacing: -3px;
+    }
+  }
 }
 
 /************************/
