@@ -724,6 +724,10 @@ p {
   max-width: 17.7rem;
 }
 
+.max-w-\[130rem\] {
+  max-width: 130rem;
+}
+
 .-rotate-180 {
   --tw-rotate: -180deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -783,6 +787,11 @@ p {
   padding-bottom: 4rem;
 }
 
+.px-\[3\.2rem\] {
+  padding-left: 3.2rem;
+  padding-right: 3.2rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -792,7 +801,7 @@ p {
 }
 
 .container {
-  max-width: 130rem;
+  max-width: 120rem;
   padding: 0 3.2rem;
   margin: 0 auto;
 }
